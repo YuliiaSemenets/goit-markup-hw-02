@@ -9,56 +9,133 @@
 --footer-contacts-color: rgba(255, 255, 255, 0.6);
 --footer-adress-color:#FFFFFF;
 }
-.hat{
-   background-color: var(--footer-adress-color);
-}
+
+/* Навигация по странице  */
 
 .text-nav a{
     color: var(--primary-text-color);
+    font-family: Roboto;
+font-weight: 600;
+font-size: 14px;
 }
 .accent:hover,
 .accent:focus{
     color: var(--link-color);
 }
- .accent:active,
- .accent:visited{
-     color: teal;
- }   
  
+ 
+ /* Контакты в шапке */
+
 .text-contacts a{
     color: var(--paragraph-color);
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
 }
+
+/* Основные стили страницы */
+
 a {
   text-decoration: none;
 }
 ul{
     list-style: none;
 }
-.nav-sheet button{
-color: var(--button-color);
+
+/* Невидимые элементы */
+
+.invisible{
+    color: rgba(0, 0, 0, 0);
 }
+
+/* Кнопки страницы */
+
+.button button{
+    background-color: var(--button-color);
+    color: var(--primary-text-color);
+       font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+}
+
+/* Активные кнопки */
+
 .accent-box:hover,
 .accent-box:focus{
     background-color: var(--background-color);
     color: var(--footer-adress-color);
 }
 
+/* Заголовки */
+
 h3{
     color:var(--primary-text-color);
+    font-family: Roboto;
+font-weight: bold;
+font-size: 18px;
 }
+
+/* Заголовки меньшие */
+h3.little-title{
+    font-size: 14px;
+}
+
+/* Основной текст */
 
 .title p{
 color: var(--paragraph-color);
+font-family: Roboto;
+font-weight: normal;
+font-size: 16px;
 }
+
+.features p{
+    color: var(--paragraph-color);
+font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
+}
+
+/* Наши клиенты */
+
+.clients{
+    
+font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+}
+
+/*Адресс и контакты */
+
 .finish{
     background-color: var(--footer-color);
 }
-.adress{
+
+.adress-title{
     color: var(--footer-adress-color);
+    font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
 }
 .contacts a{
     color: var(--footer-contacts-color);
+font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
 }
+
+.lets-go{
+    color: var(--footer-adress-color);
+    font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+}
+
+/* Автор и год */
+
 .go-it{
     color: var(--footer-contacts-color);
+    font-family: Roboto;
+font-weight: normal;
+font-size: 12px;
 }

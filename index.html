@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -17,13 +18,13 @@
             </a>
 
             <!--Навигация-->
-            <ul>
-                <li><a href="./index.html">Студия</a> </li>
+            <ul class="text-nav">
+                <li><a href="./index.html" class="accent">Студия</a> </li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="/контакты">Контакты</a></li>
             </ul>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <ul class="text-contacts">
+                <li><a href="mailto:info@devstudio.com" class="accent">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a> </li>
             </ul>
         </nav>
@@ -32,31 +33,33 @@
     <!--эффективные решения для вашего бизнеса-->
     <header>
         <h1>эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <div class="button">
+            <button class="accent-box">Заказать услугу</button>
+        </div>
     </header>
 
     <!--Main conteiner-->
     <main>
         <!--Внимание к деталям-->
-        <h2>Наши преимущества</h2>
-        <ul>
+        <h2 class="invisible">Наши преимущества</h2>
+        <ul class="features">
             <li>
-                <h3>Внимание к деталям</h3>
+                <h3 class="little-title">Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             <li>
-                <h3>Пунктуальность</h3>
+                <h3 class="little-title">Пунктуальность</h3>
                 <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
 
             <li>
-                <h3>Планирование</h3>
+                <h3 class="little-title">Планирование</h3>
                 <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
 
 
             <li>
-                <h3> Современные технологии</h3>
+                <h3 class="little-title"> Современные технологии</h3>
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
 
@@ -88,7 +91,7 @@
         <section>
 
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/photo1.jpg" alt="photo1" width="270">
                     <h3>John Smith</h3>
@@ -99,12 +102,13 @@
 
             <!--Contacts JS-->
             <ul>
+
                 <li><a href="/instagram">insagram</a> </li>
                 <li><a href="/twitter">twitter</a> </li>
                 <li><a href="/facebook">facebook</a> </li>
                 <li><a href="/linkedin">linkedin</a> </li>
             </ul>
-            <ul>
+            <ul class="title">
 
                 <li>
                     <img src="./img/photo2.jpg" alt="photo2" width="270">
@@ -121,7 +125,7 @@
                 <li><a href="/facebook">facebook</a> </li>
                 <li><a href="/linkedin">linkedin</a> </li>
             </ul>
-            <ul>
+            <ul class="title">
 
                 <li>
                     <img src="./img/photo3.jpg" alt="photo3" width="270">
@@ -140,7 +144,7 @@
                 <li><a href="/facebook">facebook</a> </li>
                 <li><a href="/linkedin">linkedin</a> </li>
             </ul>
-            <ul>
+            <ul class="title">
 
                 <li>
                     <img src="./img/photo4.jpg" alt="photo4" width="270">
@@ -163,7 +167,7 @@
         <!--Постоянные клиенты-->
         <section>
 
-            <h2>Постоянные клиенты</h2>
+            <h2 class="clients">Постоянные клиенты</h2>
             <ul>
                 <li>
                     <img src="./img/logo1.png" alt="logo1" />
@@ -189,25 +193,30 @@
     </main>
 
     <!--Footer container-->
-    <footer>
-        <p>Web Studio</p>
+    <footer class="finish">
+        <img src="./img/WebStudio.png" alt="WebStudio" width="129">
 
-        <address>
+        <address class="adress-title">
             г. Киев, пр-т Леси Украинки, 26
         </address>
-        <address>
+        <address class="contacts">
             <a href="mailto:info@example.com">info@example.com</a><br />
             <a href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
 
-        <p>присоединяйтесь</p>
+        <p class="lets-go">присоединяйтесь</p>
         <ul>
             <li><a href="/instagram">insagram</a></li>
             <li><a href="/twitter">twitter</a></li>
             <li><a href="/facebook">facebook</a></li>
             <li><a href="/linkedin">linkedin</a></li>
         </ul>
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="lets-go">Подпишитесь на рассылку</p>
+
+        <p class="go-it">2020 | Developed by GoIT Students</p>
+
+
+
     </footer>
 
 
