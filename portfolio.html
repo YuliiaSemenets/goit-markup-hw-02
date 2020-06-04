@@ -2,25 +2,29 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--top line-->
-    <header>
+    <header class="hat">
         <nav>
-            <a href="/"> WebStudio</a>
+            <a href="./index.html">
+                <img src="./img/WebStudio.png" alt="WebStudio" width="153">
+            </a>
 
             <!--Навигация-->
-            <ul>
+            <ul class="text-nav">
                 <li><a href="./index.html">Студия</a> </li>
-                <li><a href="/портфолио">Портфолио</a></li>
+                <li><a href="/портфолио" class="accent">Портфолио</a></li>
                 <li><a href="/контакты">Контакты</a></li>
             </ul>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <ul class="text-contacts">
+                <li><a href="mailto:info@devstudio.com" class="accent">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a> </li>
             </ul>
         </nav>
@@ -28,8 +32,9 @@
 
     <!--Основное меню-->
     <main>
-        <h1>Навигация</h1>
-        <button>Все</button>
+        <h1 class="nav-sheet">Навигация</h1>
+        <button class="accent-box
+        .">Все</button>
         <button>Веб-сайты</button>
         <button>Приложения</button>
         <button>Дизайн</button>
@@ -38,7 +43,7 @@
         <!--Наши проэкты-->
         <section>
             <h2>Наши проэкты</h2>
-            <ul>
+            <ul class="title">
                 <li>
                     <figure>
                         <img src="./img/img1.jpg" alt="picture1" width="370">
@@ -53,7 +58,7 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img2.jpg" alt="picture2" width="370">
                     <h3>Постер New Orlean vs Golden Star</h3>
@@ -61,21 +66,21 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img3.jpg" alt="picture3" width="370">
                     <h3>Ресторан Seafood</h3>
                     <p>Приложение</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img4(2).jpg" alt="picture4" width="370">
                     <h3>Проект Prime</h3>
                     <p>Маркетинг</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img5(2).jpg" alt="picture5" width="370">
                     <h3>Проект Boxes</h3>
@@ -83,28 +88,28 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img4.jpg" alt="picture6" width="370">
                     <h3>Inspiration has no Borders</h3>
                     <p>Веб-сайт</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img7.jpg" alt="picture7" width="370">
                     <h3>Издание Limited Edition</h3>
                     <p>Дизайн</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img8.jpg" alt="picture8" width="370">
                     <h3>Проект LAB</h3>
                     <p>Маркетинг</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="title">
                 <li>
                     <img src="./img/img5.jpg" alt="picture5" width="370">
                     <h3>Growing Business</h3>
@@ -115,25 +120,24 @@
     </main>
 
     <!--Как с нами связаться-->
-    <footer>
-        <p>Web Studio</p>
-
-        <address>
+    <footer class="finish">
+        <img src="./img/WebStudio.png" alt="WebStudio" width="129">
+        <address class="adress">
             г. Киев, пр-т Леси Украинки, 26
         </address>
-        <address>
+        <address class="contacts">
             <a href="mailto:info@example.com">info@example.com</a><br />
             <a href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
 
-        <p>присоединяйтесь</p>
+        <p class="adress">ПРИСОЕДИНЯЙТЕСЬ</p>
         <ul>
             <li><a href="/instagram">insagram</a></li>
             <li><a href="/twitter">twitter</a></li>
             <li><a href="/facebook">facebook</a></li>
             <li><a href="/linkedin">linkedin</a></li>
         </ul>
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="go-it">2020 | Developed by GoIT Students</p>
     </footer>
 
 </body>

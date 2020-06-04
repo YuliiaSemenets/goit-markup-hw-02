@@ -1,0 +1,64 @@
+:root{
+    --primary-text-color: #212121;
+--paragraph-color: #757575;
+--link-color:  #2196F3;
+--background-color: rgba(33, 150, 243, 0.9);
+--button-color: #F5F4FA;
+--background-sheet-color: #E5E5E5;
+--footer-color:#2F303A;
+--footer-contacts-color: rgba(255, 255, 255, 0.6);
+--footer-adress-color:#FFFFFF;
+}
+.hat{
+   background-color: var(--footer-adress-color);
+}
+
+.text-nav a{
+    color: var(--primary-text-color);
+}
+.accent:hover,
+.accent:focus{
+    color: var(--link-color);
+}
+ .accent:active,
+ .accent:visited{
+     color: teal;
+ }   
+ 
+.text-contacts a{
+    color: var(--paragraph-color);
+}
+a {
+  text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-sheet button{
+color: var(--button-color);
+}
+.accent-box:hover,
+.accent-box:focus{
+    background-color: var(--background-color);
+    color: var(--footer-adress-color);
+}
+
+h3{
+    color:var(--primary-text-color);
+}
+
+.title p{
+color: var(--paragraph-color);
+}
+.finish{
+    background-color: var(--footer-color);
+}
+.adress{
+    color: var(--footer-adress-color);
+}
+.contacts a{
+    color: var(--footer-contacts-color);
+}
+.go-it{
+    color: var(--footer-contacts-color);
+}
