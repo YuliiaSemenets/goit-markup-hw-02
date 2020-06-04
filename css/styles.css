@@ -80,7 +80,16 @@ h3.little-title{
     font-size: 14px;
 }
 
-/* Основной текст */
+/* Чем занимаемся */
+.link a{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+
+
+/* команда */
 
 .title p{
 color: var(--paragraph-color);
@@ -88,6 +97,7 @@ font-family: Roboto;
 font-weight: normal;
 font-size: 16px;
 }
+
 
 .features p{
     color: var(--paragraph-color);
