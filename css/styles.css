@@ -68,28 +68,44 @@ font-size: 16px;
 
 /* Заголовки */
 
-h3{
-    color:var(--primary-text-color);
-    font-family: Roboto;
-font-weight: bold;
-font-size: 18px;
+.main-header{
+    
+font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
 }
 
+
 /* Заголовки меньшие */
-h3.little-title{
-    font-size: 14px;
+
+.little-title{
+    font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
 }
 
 /* Чем занимаемся */
+
+.task{
+    font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+}
+
 .link a{
 font-family: Roboto;
-font-style: normal;
 font-weight: bold;
 font-size: 14px;
 }
 
 
 /* команда */
+.title h3{
+    
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+}
 
 .title p{
 color: var(--paragraph-color);
@@ -109,8 +125,7 @@ font-size: 14px;
 /* Наши клиенты */
 
 .clients{
-    
-font-family: Roboto;
+ font-family: Roboto;
 font-weight: bold;
 font-size: 36px;
 }
@@ -148,4 +163,21 @@ font-size: 14px;
     font-family: Roboto;
 font-weight: normal;
 font-size: 12px;
+}
+
+
+/* Наши проэкты */
+
+.projects h3{
+    
+font-family: Roboto;
+font-weight: bold;
+font-size: 18px;
+}
+
+.projects p{
+    color: var(--paragraph-color);
+font-family: Roboto;
+font-weight: normal;
+font-size: 16px;
 }
