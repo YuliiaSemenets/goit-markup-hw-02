@@ -3,21 +3,32 @@
 --paragraph-color: #757575;
 --link-color:  #2196F3;
 --background-color: rgba(33, 150, 243, 0.9);
---button-color: #F5F4FA;
---background-sheet-color: #E5E5E5;
+--button-color: ##FFFFFF;
+--background-sheet-color: #FFFFFF;
 --footer-color:#2F303A;
 --footer-contacts-color: rgba(255, 255, 255, 0.6);
 --footer-adress-color:#FFFFFF;
+--goit-color:rgba(255, 255, 255, 0.4);
+}
+
+
+body{
+    background-color: var(--background-sheet-color);
+    color: var(--paragraph-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* Навигация по странице  */
 
 .text-nav a{
     color: var(--primary-text-color);
-    font-family: Roboto;
-font-weight: 600;
+font-weight: 500;
 font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
+
 .accent:hover,
 .accent:focus{
     color: var(--link-color);
@@ -28,9 +39,10 @@ font-size: 14px;
 
 .text-contacts a{
     color: var(--paragraph-color);
-    font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 /* Основные стили страницы */
@@ -50,15 +62,21 @@ ul{
 
 /* Кнопки страницы */
 
-.button button{
-    background-color: var(--button-color);
-    color: var(--primary-text-color);
-       font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
+button{
+    font-family: inherit;
+    font-size: 16px;
 }
 
 /* Активные кнопки */
+
+
+.accent-box{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.06em;
+}
 
 .accent-box:hover,
 .accent-box:focus{
@@ -66,68 +84,70 @@ font-size: 16px;
     color: var(--footer-adress-color);
 }
 
+.box-nav button{
+font-weight: 500;
+line-height: 1.62;
+}
+
 /* Заголовки */
 
 .main-header{
-    
-font-family: Roboto;
+
 font-weight: 900;
 font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 
 /* Заголовки меньшие */
 
 .little-title{
-    font-family: Roboto;
-font-weight: bold;
+    color: var(--primary-text-color);
+font-weight: 700;
 font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 }
 
 /* Чем занимаемся */
 
 .task{
-    font-family: Roboto;
-font-weight: bold;
+    color: var(--primary-text-color);
+font-weight: 700;
 font-size: 36px;
+line-height: 1.16;
+text-align: center;
 }
 
 .link a{
-font-family: Roboto;
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 }
 
 
 /* команда */
-.title h3{
-    
-font-family: Roboto;
+
+.title h3{    
+    color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
+line-height: 1.18;
 }
 
 .title p{
-color: var(--paragraph-color);
-font-family: Roboto;
-font-weight: normal;
 font-size: 16px;
+line-height: 1.18;
 }
 
 
 .features p{
-    color: var(--paragraph-color);
-font-family: Roboto;
-font-weight: normal;
 font-size: 14px;
-}
-
-/* Наши клиенты */
-
-.clients{
- font-family: Roboto;
-font-weight: bold;
-font-size: 36px;
+line-height: 1.71;
 }
 
 /*Адресс и контакты */
@@ -138,46 +158,52 @@ font-size: 36px;
 
 .adress-title{
     color: var(--footer-adress-color);
-    font-family: Roboto;
-font-weight: normal;
 font-size: 14px;
+line-height: 1.71;
 }
+
 .contacts a{
-    color: var(--footer-contacts-color);
-font-family: Roboto;
-font-weight: normal;
+   color: var(--footer-contacts-color);
 font-size: 14px;
+line-height: 1.71;
 }
 
 .lets-go{
     color: var(--footer-adress-color);
-    font-family: Roboto;
-font-weight: bold;
+  font-weight: 700;
 font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 }
 
 /* Автор и год */
 
 .go-it{
-    color: var(--footer-contacts-color);
-    font-family: Roboto;
-font-weight: normal;
+    color: var(--goit-color);
 font-size: 12px;
+line-height: 2;
+text-align: center;
 }
 
 
 /* Наши проэкты */
 
-.projects h3{
-    
-font-family: Roboto;
-font-weight: bold;
+.projects{
+    color: var(--primary-text-color);
+font-weight: 700;
 font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 
-.projects p{
+.view{
     color: var(--paragraph-color);
-font-family: Roboto;
-font-weight: normal;
 font-size: 16px;
+line-height: 1.87;
+}
+
+.about{
+    color: var(--primary-text-color);
+   font-size: 18px;
+line-height: 1.55;
 }
